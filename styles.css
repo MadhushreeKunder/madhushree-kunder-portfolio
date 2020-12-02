@@ -1,19 +1,8 @@
-body {
-  color: #1f2937;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1{
-    color:#1f2937;
-}
 
-h2{
-    color:#F87171;
-}
 
-#hero-heading{
-    color: blue;
-}
-
-.listing{
-    color:mediumseagreen;
-}
