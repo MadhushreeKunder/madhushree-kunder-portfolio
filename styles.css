@@ -10,6 +10,7 @@
 /* background-color: #1F2937; */
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 hr {
@@ -114,4 +115,24 @@ hr {
 
 .ow {
   background-color: var(--light-gray);
+}
+
+/** footer **/
+
+.footer{
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.footer .link{
+  color: white;
+  
+}
+
+.footer ul{
+  padding-inline-start: 0px;
 }
