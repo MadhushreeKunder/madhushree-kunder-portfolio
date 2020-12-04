@@ -22,7 +22,7 @@
     <h6>This is the smallest heading</h6>
     <p>This is a paragraph. It looks pretty neat</p>
     <small>This is the small tag. Looks smaller than paragraph but bigger than h6</small>
-    <p>This line has <strong>bold   </strong> text</p>
+    <p>This line has <strong>bold </strong> text</p>
 
     <hr>
 
@@ -32,7 +32,8 @@
     <div class="container">this is a fluid container, which means it will go from end to end of the page</div>
 
     <h3>@center container</h3>
-    <div class="container container-center">this is a center container, it will only expand according to the width given; (used to put someting in the center)</div>
+    <div class="container container-center">this is a center container, it will only expand according to the width
+        given; (used to put someting in the center)</div>
 
     <hr>
 
@@ -45,7 +46,7 @@
 
     <h2>@lists</h2>
 
-    <h3 >@unordered lists with no bullets</h3>
+    <h3>@unordered lists with no bullets</h3>
     <ul class="list-non-bullet">
         <li>Mango</li>
         <li>Banana</li>
@@ -72,18 +73,20 @@
 
     <h2>@nav</h2>
 
-    <div id="main-header">IAMDEVELOPER</div>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/">Projects</a>
-        </li>
-        <li>
-            <a href="/">Blogs</a>
-        </li>
-    </ul>
+    <nav class="navigation container">
+        <div class="nav-brand ">IAMDEVELOPER</div>
+        <ul class="list-non-bullet align-to-right ">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Blogs</a>
+            </li>
+        </ul>
+    </nav>
 
     <hr>
 
@@ -91,7 +94,7 @@
 
     <header>
         <img src="images/hero-image.svg" />
-        <h1 >Heading inside hero</h1>
+        <h1>Heading inside hero</h1>
     </header>
 
     <hr>
