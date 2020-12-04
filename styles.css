@@ -7,6 +7,10 @@
   --light-gray: #f3f4f6;
 }
 
+.padding-medium{
+  padding: 2rem 0rem;
+}
+
 /* background-color: #1F2937; */
 body {
   font-family: "Montserrat", sans-serif;
@@ -54,6 +58,16 @@ hr {
   color: white;
 }
 
+.link-last {
+  border-radius: 0.5rem;
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color)
+}
+
+
+
+
+
 /**lists**/
 
 .list-non-bullet {
@@ -96,10 +110,11 @@ hr {
 
 .hero {
   padding: 1rem;
+  padding-top: 5rem;
 }
 
 .hero .hero-img {
-  max-width: 350px;
+  max-width: 450px;
   margin: auto;
   display: block;
 }
