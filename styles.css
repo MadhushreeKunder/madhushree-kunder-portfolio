@@ -32,6 +32,8 @@ hr {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  /* margin-top: 5rem; */
 }
 
 .link-primary {
@@ -41,9 +43,15 @@ hr {
 }
 
 .link-secondary {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: 0.5rem;
-  border: 2px solid var(--primary-color);
+  border: 3px solid var(--secondary-color);
+}
+
+.link-third{
+  background-color: var(--dark-gray);
+  border-radius: 0.5rem;
+  color: white;
 }
 
 /**lists**/
@@ -116,6 +124,11 @@ hr {
   background-color: var(--light-gray);
 }
 
+.blog-header{
+  text-align: center;
+}
+
+
 /** footer **/
 
 .footer {
@@ -133,4 +146,9 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+  font-weight: bold;
+  font-size: large;
 }
