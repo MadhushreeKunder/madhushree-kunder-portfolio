@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
   --primary-color: #f87171;
+  --secondary-color: #1F2937;
+  --dark-gray: #4B5563;
+
 }
 
-:root{
-  --secondary-color: #1F2937;
-}
 
 /* background-color: #1F2937; */
 body {
@@ -57,6 +57,8 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+/** navigation **/
+
 .navigation{
   background-color: var(--secondary-color);
   color: white;
@@ -80,5 +82,23 @@ hr {
 
 .link-active{
   font-weight:bold;
+}
+
+/** header **/
+
+.hero{
+  padding: 1rem;
+}
+
+.hero .hero-img{
+  max-width: 350px;
+  margin: auto;
+  display:block;
+}
+
+.hero .hero-heading{
+  padding-top: 1rem;
+  text-align:center;
+  color: var(--dark-gray);
 }
 
