@@ -4,7 +4,7 @@
   --primary-color: #f87171;
   --secondary-color: #1f2937;
   --dark-gray: #4b5563;
-  --light-gray:#F3F4F6;
+  --light-gray: #f3f4f6;
 }
 
 /* background-color: #1F2937; */
@@ -104,12 +104,11 @@ hr {
 
 /** sections **/
 
-.section{
+.section {
   padding: 2rem;
 }
 
 .section h1 {
-  
   text-align: center;
 }
 
@@ -119,7 +118,7 @@ hr {
 
 /** footer **/
 
-.footer{
+.footer {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
@@ -128,11 +127,10 @@ hr {
   border-bottom-right-radius: 1rem;
 }
 
-.footer .link{
+.footer .link {
   color: white;
-  
 }
 
-.footer ul{
+.footer ul {
   padding-inline-start: 0px;
 }
