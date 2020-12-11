@@ -5,6 +5,7 @@
   --secondary-color: #1f2937;
   --dark-gray: #4b5563;
   --light-gray: #f3f4f6;
+  --gray: #9CA3AF;
 }
 
 .padding-medium{
@@ -152,8 +153,8 @@ hr {
   padding: 2rem 1rem;
   text-align: center;
   color: white;
-  border-top-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .footer .link {
@@ -169,6 +170,8 @@ hr {
   font-size: large;
 }
 
-.last-line{
+#last-line{
   background-color: var(--secondary-color);
+  text-align: center;
+  color: var(--gray);
 }
