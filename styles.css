@@ -6,6 +6,7 @@
   --dark-gray: #4b5563;
   --light-gray: #f3f4f6;
   --gray: #9CA3AF;
+  --width-break: 600px;
 }
 
 .padding-medium{
@@ -16,6 +17,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+ 
 }
 
 hr {
@@ -131,6 +133,8 @@ hr {
 
 .section {
   padding: 2rem;
+  /* max-width: var(--width-break);
+  margin: auto; */
 }
 
 .section h1 {
