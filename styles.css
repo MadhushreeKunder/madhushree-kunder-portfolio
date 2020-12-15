@@ -35,6 +35,13 @@ hr {
   margin: auto;
 }
 
+/* .container-center-two{
+  max-width: 850px;
+  margin:auto;
+} */
+
+/* this was to shorten the nav bar and footer but its bot looking good that way, change it in the future */
+
 /**links**/
 .link {
   text-decoration: none;
