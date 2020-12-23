@@ -7,7 +7,7 @@
   --light-gray: #f3f4f6;
   --gray: #9ca3af;
   --btn-click-color: #ef4444;
-  --btn-click-color-gray:#6B7280;
+  --btn-click-color-gray: #6b7280;
   --width-break: 600px;
 }
 
@@ -85,7 +85,7 @@ hr {
   transform: translateY(4px);
 }
 
-.btn-2:active{
+.btn-2:active {
   background-color: var(--btn-click-color-gray);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
@@ -102,7 +102,7 @@ hr {
   padding: 0rem 0.5rem;
 }
 
-ol{
+ol {
   padding-inline-start: 20px;
 }
 
@@ -113,7 +113,7 @@ ol{
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  /* border-top-right-radius: 1rem; */
 }
 
 .navigation .link {
@@ -177,7 +177,7 @@ ol{
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  /* border-bottom-left-radius: 1rem; */
 }
 
 .footer .link {
