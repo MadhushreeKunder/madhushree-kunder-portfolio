@@ -6,13 +6,14 @@
   --dark-gray: #4b5563;
   --light-gray: #f3f4f6;
   --gray: #9ca3af;
+  --btn-click-color: #ef4444;
+  --btn-click-color-gray:#6B7280;
   --width-break: 600px;
 }
 
 .padding-medium {
   padding: 2rem 0rem;
 }
-
 
 /* background-color: #1F2937; */
 body {
@@ -74,6 +75,22 @@ hr {
   color: var(--primary-color);
 }
 
+.link-active {
+  font-weight: bold;
+}
+
+.btn:active {
+  background-color: var(--btn-click-color);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-2:active{
+  background-color: var(--btn-click-color-gray);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /**lists**/
 
 .list-non-bullet {
@@ -106,10 +123,6 @@ hr {
 .nav-brand {
   font-weight: bold;
   font-size: 1.1rem;
-}
-
-.link-active {
-  font-weight: bold;
 }
 
 /** header **/
