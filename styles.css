@@ -120,6 +120,7 @@ hr {
 }
 
 .hero .hero-img {
+  width: 100%;
   max-width: 450px;
   margin: auto;
   display: block;
