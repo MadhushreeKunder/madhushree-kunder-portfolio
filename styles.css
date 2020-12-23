@@ -102,6 +102,10 @@ hr {
   padding: 0rem 0.5rem;
 }
 
+ol{
+  padding-inline-start: 0px;
+}
+
 /** navigation **/
 
 .navigation {
